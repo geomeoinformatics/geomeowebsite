@@ -1,0 +1,140 @@
+/*!
+ * Version		: 1.0
+ * Author		: Ram Kumar SK
+ * GitHub		: https://github.com/ramkumar21/geomeowebsite
+ * Company		: GeoMeo Informatics
+ */
+.ouradv {
+	    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+	height:500px;
+}
+.adv{
+    position: relative;
+    float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.imadv{
+	margin-left:100px;
+}
+.adv_image {
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.adv_text {
+  font-size: 16px;
+}
+.adv_text p{
+	font-size: 12px;
+}
+.youtube{
+	display:block;
+	margin:auto;
+	width:560px;
+	height:315px;
+}
+@media (max-width:1200px)
+{
+	.adv_image{
+		width:180px;
+	}
+	.adv_text {
+		font-size: 14px;
+	}
+	.adv_text p{
+	font-size: 10px;
+	}
+	.imadv{
+	margin-left:70px;
+	}
+}
+@media (max-width:990px)
+{
+	.adv_image{
+		width:130px;
+	}
+	.ouradv {
+	height:375px;
+	}
+	.imadv{
+	margin-left:50px;
+	}
+	.adv_text {
+		font-size: 10px;
+	}
+	.adv_text p{
+	font-size: 9px;
+	}
+}
+@media (max-width:770px)
+{
+	.adv_image{
+		width:150px;
+	}
+	.ouradv {
+	height:550px;
+	}
+	.imadv{
+	margin-left:115px;
+	}
+	.adv_text {
+		font-size: 10px;
+	}
+	.adv_text p{
+	font-size: 9px;
+	}
+}
+@media (max-width:650px)
+{
+	.adv_image{
+		width:100px;
+		margin-left:15px;
+	}
+	.ouradv {
+	height:450px;
+	}
+	.imadv{
+	margin-left:115px;
+	}
+	.adv_text {
+		font-size: 10px;
+	}
+	.adv_text p{
+	font-size: 9px;
+	}
+	.youtube{
+	width:460px;
+	height:275px;
+}
+}
+@media (max-width:480px)
+{
+	.adv_image{
+		width:150px;	
+	}
+	.adv{
+		position:relative;
+	}
+	.ouradv {
+	height:1050px;
+	}
+	.imadv{
+	margin-left:60px;
+	}
+	.adv_text {
+		font-size: 12px;
+	}
+	.adv_text p{
+	font-size: 10px;
+	}
+	.youtube{
+	width:280px;
+	height:200px;
+	}
+}
