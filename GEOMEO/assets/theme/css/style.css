@@ -436,7 +436,12 @@ nav .mbr-section-btn {
     display: table-cell;
     vertical-align: middle;
 	margin:10px;
+	width:50%;
+	text-align:justify;
+	box-sizing: border-box;
+	
 }
+
 @media(min-width:991px){
 .gtstyle{
 	width:50%;
@@ -450,7 +455,7 @@ nav .mbr-section-btn {
 }
 .cid-qIQJQwCBKt .testimonial-text {
   font-style: italic;
-  color: #676767;
+  color: #3e3e3e;
   font-weight: 300;
 }
 .cid-qIQJQwCBKt .mbr-author-name {
@@ -459,4 +464,36 @@ nav .mbr-section-btn {
 }
 .cid-qIQJQwCBKt .mbr-author-desc {
   color: #232;
+}
+.iconlinkedin{
+	text-decoration:none;
+	position: absolute;
+    right: 15px;
+    top: 10px;
+}
+@media(max-width:1199px){
+.cid-qIQJQwCBKt p{
+	font-size:0.8rem;
+}
+}
+.iconlinkedin img{
+	max-width:100%;
+}
+
+@media(max-width:768px){
+.gteam{
+	width:90%;}	
+.cid-qIQJQwCBKt p{
+	font-size:2rem;
+}
+}
+
+@media(max-width:500px){
+.cid-qIQJQwCBKt p{
+	font-size:1rem;
+}}
+
+
+.gcontent{
+	position:relative;
 }
